@@ -7,7 +7,7 @@ Go <a href="/forex">back</a>
   <% @array_of_symbols.each do |a_symbol| %>
   <li>
   <a href="/forex/<%= @from_symbol %>/<%= a_symbol %>">
-  Convert 1 USD to <%=a_symbol%>
+  Convert 1 <%=@from_symbol%> to <%=a_symbol%>
   </a>
   </li>
   <% end %>
